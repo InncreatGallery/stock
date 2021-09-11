@@ -1,0 +1,16 @@
+header {
+	background: #ffffff;
+}
+
+.image_header {
+	width: 40%;
+}
+
+/*====================Responsive(PC)====================*/
+@media screen and (max-width: 1000px) {
+
+.image_header {
+	width: 70%;
+}
+
+}
