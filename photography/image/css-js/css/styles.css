@@ -32,6 +32,30 @@ body {
 	background-color: #ffffff;
 }
 
+.spy {
+
+	display: none;
+
+}
+
+.spy_aside {
+
+	display: block;
+
+}
+
+.spy-a {
+
+	display: none;
+
+}
+
+.spy-a_aside {
+
+	display: block;
+
+}
+
 .relationated {
 
 	font-family: 'KoHo', sans-serif;
@@ -84,6 +108,30 @@ aside {
 
 /*====================Responsive(Android)====================*/
 @media screen and (max-width: 800px) {
+
+.spy {
+
+	display: block;
+
+}
+
+.spy_aside {
+
+	display: none;
+
+}
+
+.spy-a {
+
+	display: block;
+
+}
+
+.spy-a_aside {
+
+	display: none;
+
+}
 
 .images_related {
 	width: 45%;
