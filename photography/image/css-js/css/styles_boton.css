@@ -42,6 +42,10 @@ a.animated-button:link, a.animated-button:visited {
 	transition: all 0.5s ease;
 	box-shadow: 2px 2px 5px #cacaca;
 }
+
+.br2{
+  margin-bottom: 10px;
+}
                     
 .boton_personalizado:hover {
 	color: #ffffff;
