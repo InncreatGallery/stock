@@ -4,6 +4,11 @@ var rights;
 	rights.innerHTML = "Todos los derechos reservados ";
 	rights.href = "https://www.inncreat.ga";
 
+var copyright;
+
+	copyright = document.getElementById("copyright");
+	copyright.innerHTML = "&#169;";
+
 var year;
 
 	year = document.getElementById("year");
