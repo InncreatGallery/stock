@@ -108,6 +108,22 @@ aside {
 
 /*====================Responsive(Android)====================*/
 @media screen and (max-width: 800px) {
+	
+#link3{
+	display: none;
+}
+
+#related3{
+	display: none;
+}
+
+#link4{
+	display: none;
+}
+
+#related4{
+	display: none;
+}
 
 .spy {
 
