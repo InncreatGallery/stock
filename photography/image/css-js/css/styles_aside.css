@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+
+.images_ad {  
+	width: 21%;
+	box-shadow: 2px 2px 5px #999;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.download {
+	font-size: 15px;
+}
+
+/*==============================================*/
+/*____________________perfil____________________*/
+/*==============================================*/
+
+.images_perfil {
+	width: 40px;
+}
+
+.font_perfil {
+	font-family: 'KoHo', sans-serif;
+	color: #1e1e20;
+	font-size: 20px;
+	height: 1px;
+}
+
+.font_perfil_rango {
+	font-family: 'KoHo', sans-serif;
+	font-size: 20px;
+	height: 1px;
+}
+
+.bt {
+
+margin-top: 18px;
+
+}
+
+/*===============================================*/
+/*____________________license____________________*/
+/*===============================================*/
+
+.license {
+	background-color: #f6f6f6;
+	border: 10px solid #f6f6f6;
+	width: 21%;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.license_primary {
+	font-family: 'KoHo', sans-serif;
+	font-size: 18px;
+	color: #000000;
+	text-decoration: underline;
+}
+
+.license_secondary {
+	font-family: 'KoHo', sans-serif;
+	font-size: 16px;
+	color: #000000;
+	text-decoration: none;
+}
+
+/*================================================*/
+/*____________________Facebook____________________*/
+/*================================================*/
+
+.facebook {
+	background-color: #f6f6f6;
+	border: 10px solid #f6f6f6;
+	width: 21%;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.facebook2 {
+	background-color: #f6f6f6;
+	border: 10px solid #f6f6f6;
+	float: right;
+}
+
+.facebook_primary {
+	font-family: 'KoHo', sans-serif;
+	font-size: 16px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.facebook_primary2 {
+	font-family: 'KoHo', sans-serif;
+	font-size: 16px;
+	color: #000000;
+	text-decoration: none;
+	height: 0px;
+}
+
+/*==================================================*/
+/*____________________wallpapers____________________*/
+/*==================================================*/
+
+.wallpapers {
+	width: 21%;
+}
+
+.wallpapers_vertical {
+	width: 94%;
+	margin: 3%;
+	border-radius: 5px 5px 5px 5px;
+}
+
+/*===============================================*/
+/*____________________Details____________________*/
+/*===============================================*/
+
+.details {
+	background-color: #f6f6f6;
+	border: 10px solid #f6f6f6;
+	border-radius: 5px 5px 5px 5px;
+	width: 21%;
+	font-family: 'KoHo', sans-serif;
+	font-size: 16px;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+}
+
+.details_primary {
+	font-family: 'KoHo', sans-serif;
+	font-size: 16px;
+	color: #000000;
+}
+
+.details_secondary {
+	font-family: 'KoHo', sans-serif;
+	font-size: 16px;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+}
+
+.details_tertiary {
+	font-family: 'KoHo', sans-serif;
+	font-size: 16px;
+	color: #000000;
+	text-decoration: none;
+	text-align: right;
+}
+
+/*====================Responsive(PC)====================*/
+@media screen and (max-width: 1000px) {
+
+.images_ad{  
+	width: 250px;
+	box-shadow: 2px 2px 5px #999;
+}
+
+.license{
+	background-color: #f6f5fa;
+	border: 10px solid #f6f5fa;
+	width: 250px;
+}
+
+.facebook{
+	background-color: #f6f5fa;
+	border: 10px solid #f6f5fa;
+	width: 250px;
+}
+
+
+.wallpapers_vertical{
+	width: 110px;
+	margin: 3%;
+}
+
+.details{
+	background-color: #f6f5fa;
+	border: 10px solid #f6f5fa;
+	width: 250px;
+}
+
+}
