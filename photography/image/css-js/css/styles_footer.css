@@ -5,6 +5,8 @@ footer {
 	height: 20%;
 	background: #1d1d1f;
 	clear: both;
+	z-index: 999;
+	position: relative;
 }
 
 footer div {
