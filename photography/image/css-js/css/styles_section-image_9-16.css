@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+
+.contenedor_9-16 {
+	width: 35%;
+	position: relative;
+}
+    
+.contenedor_9-16 figure img {
+	width: 100%;
+	transition: all 400ms ease-out;
+	border-radius: 5px 5px 5px 5px;
+}
+
+    
+.contenedor_9-16 figure .capa {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 10%;
+	transition: all 400ms ease-out;
+	opacity: 0;
+	visibility: hidden;
+	text-align: left;
+	background:linear-gradient(top, rgb(0, 0, 0, 0.5), rgba(255, 255, 255, 0));
+	background:-webkit-linear-gradient(top, rgb(0, 0, 0, 0.5), rgba(255, 255, 255, 0));
+	background:-moz-linear-gradient(top, rgb(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
+	background:-o-linear-gradient(top, rgb(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
+	background:-ms-linear-gradient(top, rgb(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
+	border-radius: 5px 5px 0px 0px;
+}
+
+.contenedor_9-16 figure:hover > .capa {
+	opacity: 1;
+	visibility: visible;
+	color: #ffffff;
+}
+
+.contenedor_9-16 figure .capa p {
+	top: 0px;
+	color: #fff;
+	height: 10px;
+	font-size: 17px;
+	font-family: 'KoHo', sans-serif;
+	padding: 10px 0px 0px 20px;
+}
+
+/*====================Responsive(Android)====================*/
+@media screen and (max-width: 800px) {
+
+.contenedor figure .capa {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 30%;
+	transition: all 400ms ease-out;
+	opacity: 0;
+	visibility: hidden;
+	text-align: left;
+	background:linear-gradient(top, rgb(0, 0, 0), rgba(255, 255, 255, 0));
+	background:-webkit-linear-gradient(top, rgb(0, 0, 0), rgba(255, 255, 255, 0));
+	background:-moz-linear-gradient(top, rgb(0, 0, 0), rgba(255, 255, 255, 0));
+	background:-o-linear-gradient(top, rgb(0, 0, 0), rgba(255, 255, 255, 0));
+	background:-ms-linear-gradient(top, rgb(0, 0, 0), rgba(255, 255, 255, 0));
+}
+
+}
