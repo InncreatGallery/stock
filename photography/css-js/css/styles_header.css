@@ -152,7 +152,7 @@ width: 40%;
     transform: translateX(-50%);
     width: 1200px;
     background: #fff;
-    z-index: 98;
+    z-index: 97;
     overflow: hidden;
     display: none;
 }
@@ -180,7 +180,7 @@ width: 40%;
     position: fixed;
     left: 0;
     background: rgba(0,0,0,0.5);
-    z-index: 97;
+    z-index: 96;
     display: none;
 }
 
