@@ -3,7 +3,7 @@
 var link1
 
 	link1 = document.getElementById("link1");
-	link1.href="https://www.inncreat-gallery.ga/photography/photographs/1/photography.html";
+	link1.href="https://www.inncreat-gallery.ga/photography/photographs/32";
 
 var related1
 
@@ -13,7 +13,7 @@ var related1
 var link2
 
 	link2 = document.getElementById("link2");
-	link2.href="https://www.inncreat-gallery.ga/photography/photographs/4/photography.html";
+	link2.href="https://www.inncreat-gallery.ga/photography/photographs/26";
 
 var related2
 
@@ -23,7 +23,7 @@ var related2
 var link3
 
 	link3 = document.getElementById("link3");
-	link3.href="https://www.inncreat-gallery.ga/photography/photographs/5/photography.html";
+	link3.href="https://www.inncreat-gallery.ga/photography/photographs/33";
 
 var related3
 
@@ -33,7 +33,7 @@ var related3
 var link4
 
 	link4 = document.getElementById("link4");
-	link4.href="https://www.inncreat-gallery.ga/photography/photographs/12/photography.html";
+	link4.href="https://www.inncreat-gallery.ga/photography/photographs/1";
 
 var related4
 
