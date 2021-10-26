@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+.profiles{
+width:95%;
+margin-top: 50px;
+border:0px solid #000;
+overflow: hidden;
+}
+
+2title{
+width:100%;
+border:0px solid #000;
+}
+
+.title3 h2{
+letter-spacing: 1px;
+text-align: left;
+font-weight: bold;
+font-size: 23px;
+font-family: 'Raleway', sans-serif;
+}
+
+.profil{
+width:9%;
+border:0px solid #000;
+margin: 2% .5% 0% .5%;
+float: left;
+}
+
+.profil img{
+width:60px;
+}
+
+@media screen and (max-width: 800px){
+.profil{
+width:23%;
+}
+}

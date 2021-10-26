@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+.specials{
+margin-top: 50px;
+width: 95%;
+border: 0px solid #000;
+overflow: hidden;
+}
+
+.title{}
+
+.title1 h2{
+letter-spacing: 1px;
+text-align: left;
+font-weight: bold;
+font-size: 23px;
+font-family: 'Raleway', sans-serif;
+}
+
+.title2 h3{
+margin-top: 3px;
+letter-spacing: 1px;
+text-align: left;
+font-weight: normal;
+font-size: 19px;
+font-family: 'Raleway', sans-serif;
+}
+
+.special{
+  width: 30%;
+  float: left;
+  margin: 1.5%;
+  border: 0px solid #000;
+}
+
+.special_image{
+  background-image: url("https://scontent-qro1-1.xx.fbcdn.net/v/t1.6435-9/p180x540/244301974_350999900112600_7760887193452889263_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeFnadRFk560ScuAE-cS0vs46d65gOYnL83p3rmA5icvzZMMjdwi7pYdPOCOuSA-okmkZmV-BqqNifeGz0V0EDeb&_nc_ohc=7JLtdCB9b8oAX_FJ5ol&tn=5x3WG83OT-Fhb2NX&_nc_ht=scontent-qro1-1.xx&oh=dfbb22235353d7178d31e69fba5d1346&oe=6193B45E");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.special_image img{
+width: 100%;
+border-radius: 5px;
+}
+
+.special_text{
+margin-top: 10px;
+}
+
+.special_text1 p{
+font-weight: bold;
+font-size: 16px;
+text-align: left;
+}
+
+.special_text1_ico{
+font-weight: bold;
+vertical-align: text-top;
+font-size: 15px;
+}
+
+.special_text2 p{
+margin-top: 2px;
+font-size: 16px;
+text-align: left;
+}
+
+@media screen and (max-width: 1220px){
+.special{
+margin-top:30px;
+}
+}
+
+@media screen and (max-width: 800px){
+.title2 h3{
+font-size: 17px;
+}
+
+.special{
+margin-top:30px;
+  width: 45%;
+}
+}

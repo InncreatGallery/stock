@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+#contents {
+  z-index: -1;
+}
+
+.head_primary {
+  position: relative;
+  width:100%;
+  height: 55vh;
+  background-image: url("https://scontent-qro1-1.xx.fbcdn.net/v/t1.6435-9/p180x540/244529420_350999243445999_5562112220675668852_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeEVsSg6pjECEK5vWEOx7Ncvv2dG2Piusnu_Z0bY-K6ye8ImkBDOd2Zv1Cn9GiKese1Z3McxOqjXCp6Jc8gFzZW4&_nc_ohc=6KY26zTY9NgAX9Z5RGY&_nc_ht=scontent-qro1-1.xx&oh=cc94c43d131f7f542a2b1c26607233a2&oe=6195E833");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  border: 0px solid #000;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.head_secondary {
+  position: absolute;
+  width:100%;
+  height: 55vh;
+  opacity:.5;
+  z-index: 2;
+  background-color: #000;
+  border: 0px solid #000;
+}
+
+.head_tertiary {
+  position: absolute;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width:100%;
+  height: 55vh;
+  opacity:1;
+  z-index: 3;
+  border: 0px solid #000;
+}
+
+.head_container {
+  width: 65%;
+  z-index: 4;
+  border: 0px solid #000;
+}
+
+.head_title {
+  z-index: 5;
+  border: 0px solid #000;
+}
+
+.head_title h1{
+  text-align: center;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+font-weight: normal;
+}
+
+.head_categories {
+  margin-top: 20px;
+  text-align: center;
+  z-index: 5;
+  border: 0px solid #000;
+}
+
+.head_categories p{
+  color: #fff;
+  letter-spacing: 1px;
+  z-index: 6;
+  cursor: pointer;
+}
+
+.head_categories_ico{
+  vertical-align: text-top;
+  color: #fff;
+  letter-spacing: 1px;
+  z-index: 6;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.head_categories a{
+  color: #fff;
+  letter-spacing: 1px;
+  z-index: 6;
+}
+
+.announcement{
+  position: absolute;
+  width: 100%;
+  background-color: #1473e7;
+  border: 0px solid #000;
+overflow: hidden;
+}
+
+#announcement-1{
+display: block;
+}
+
+#announcement-2{
+display: none;
+}
+
+.announcement p{
+  color: #fff;
+  margin: 3px 0px 3px 10px;
+}
+.announcement a{
+  color: #fff;
+  text-decoration: underline;
+}
+
+/*============================================================*/
+/*____________________CONTAINER-CATEGORIES____________________*/
+/*============================================================*/
+
+
+.container_categories {
+
+	margin: 30px 0px 20px 0px;
+	width: 100%;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+overflow: hidden;
+
+}
+
+.container_category {
+
+	text-decoration: none;
+
+}
+
+.container_category_text {
+
+	font-family: 'KoHo', sans-serif;
+	font-size: 17px;
+	text-decoration: none;
+	text-align: center;
+	/*font-weight: bold;*/
+	color: #000000;
+
+}
+
+.container_category_text_ico {
+
+	font-family: 'KoHo', sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	text-align: center;
+	/*font-weight: bold;*/
+	color: #000000;
+
+}
+
+.container_category_image {
+
+	background-image: url("images/pictures.jpg");
+
+}
+
+.container_category_image2 {
+
+	background-image: url("images/pictures.jpg");
+
+}
+
+.container_category_image3 {
+
+	background-image: url("images/pictures.jpg");
+
+}
+
+.container_category_image4 {
+
+	background-image: url("images/pictures.jpg");
+
+}
+
+.container_category_image5 {
+
+	background-image: url("images/pictures.jpg");
+
+}
+
+.container_category_image6 {
+
+	background-image: url("images/pictures.jpg");
+
+}
+
+.container_category_image7 {
+
+	background-image: url("images/pictures.jpg");
+
+}
+
+.cc {
+
+	width: 5.5%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: scroll;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 2%;
+	justify-content: space-around;
+
+}
+
+.cci {
+
+	width: 100%;
+
+}
+
+.cciall {
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: scroll;
+
+}
+
+/*==================================================*/
+/*____________________RESPONSIVE____________________*/
+/*==================================================*/
+
+/*==========================*/
+/*__________TABLET__________*/
+/*==========================*/
+
+@media screen and (max-width: 1220px){
+
+.container_category_text{
+  font-size: 19px;
+}
+
+.cc{
+  width: 7.9%;
+}
+
+.ccf {
+  display: none;
+}
+
+}
+
+/*===========================*/
+/*__________ANDROID__________*/
+/*===========================*/
+
+@media screen and (max-width: 800px){
+
+
+
+#announcement-1{
+display: none;
+}
+
+#announcement-2{
+display: block;
+}
+
+.head_primary {
+  height: 50vh;
+}
+
+.head_secondary {
+  height: 50vh;
+}
+
+.head_tertiary {
+  height: 50vh;
+}
+
+.head_container {
+  width: 45%;
+}
+
+.head_title h1{
+  font-size: 30px;
+}
+
+.head_categories{
+  display:none;
+}
+
+.container_categories {
+
+	width: 100%;
+	align-items: none;
+	display: block;
+
+
+
+}
+
+.container_category_text {
+
+	display: none;
+
+}
+
+.cc {
+
+	width: 30%;
+	float: left;
+	margin-right: 1.5%;
+	margin-left: 1.5%;
+}
+
+}

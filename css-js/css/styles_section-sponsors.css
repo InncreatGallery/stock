@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+#contents3{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 80px 0px;
+}
+
+.sponsor{
+margin: 50px 0px 0px 0px;
+width: 95%;
+border: 0px solid #000;
+}
+
+.3title{
+
+}
+
+.title4 h5{
+  margin: 0px 0px 0px 0px;
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+  font-size: 17px;
+  color: #222222;
+}
+
+.sponsors{
+margin: 20px 0px 0px 0px;
+width: 100%;
+overflow: hidden;
+border: 0px solid #000;
+}
+
+.sponsors div{
+
+float:left;
+border: 0px solid #000;
+width: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+.sponsors div p a{
+color: #6C6C6C;
+font-family: 'Raleway', sans-serif;
+font-size: 17px;
+letter-spacing: .5px;
+}
+
+.sponsors div p a:hover{
+color: #000;
+}
+
+.fab{
+font-size:16px;
+vertical-align: text-top;
+opacity: 1;
+margin-top: 2px;
+color: #6C6C6C;
+}
+
+.fas{
+font-size:16px;
+vertical-align: text-top;
+opacity: 1;
+margin-top: 2px;
+color: #6C6C6C;
+}
+
+@media screen and (max-width: 800px){
+.sponsors div{
+width: 50%;
+margin: 0px 0px 20px 0px;
+}
+}
