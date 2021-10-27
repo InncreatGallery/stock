@@ -246,7 +246,7 @@ width: 80%;
     .menu{
         width: 0px;
         height: 100vh;
-        position: absolute;
+        position: fixed;
         top: 80px;
         left: 0;
         background: transparent;
