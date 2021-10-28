@@ -36,13 +36,14 @@
 	-moz-transition: all .5s ease;
 	-o-transition: all .5s ease;
 	transition: all .5s ease;
+  border-radius: 5px 5px 5px 5px;
 }
 
 .specialx{
   width: 100%;
   padding: 0%;
   border: 0px solid #000;
-background-color: #fff;
+  background-color: #fff;
 }
 
 .special:hover{
@@ -61,51 +62,54 @@ background-color: #fff;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-border-radius: 5px;
+  border-radius: 5px 5px 5px 5px;
 }
 
 .special_image img{
-width: 100%;
-border-radius: 5px;
+  width: 100%;
+  border-radius: 5px 5px 5px 5px;
 }
 
 .special_text{
-margin-top: 10px;
+  margin-top: 10px;
 }
 
 .special_text1 p{
-font-weight: bold;
-font-size: 16px;
-text-align: left;
-color: #000;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+  color: #000;
 }
 
 .special_text1_ico{
-font-weight: bold;
-vertical-align: text-top;
-font-size: 15px;
+  font-weight: bold;
+  vertical-align: text-top;
+  font-size: 15px;
 }
 
 .special_text2 p{
-margin-top: 2px;
-font-size: 16px;
-color: #000;
-text-align: left;
+  margin-top: 2px;
+  font-size: 16px;
+  color: #000;
+  text-align: left;
 }
 
 @media screen and (max-width: 1220px){
+
 .special{
-margin-top:30px;
+  margin-top:30px;
 }
+
 }
 
 @media screen and (max-width: 800px){
+
 .title2 h3{
-font-size: 17px;
+  font-size: 17px;
 }
 
 .specials{
-width: 90%;
+  width: 90%;
 }
 
 .special{
@@ -116,4 +120,16 @@ width: 90%;
 	-o-transition: all .5s ease;
 	transition: all .5s ease;
 }
+
+.special:hover{
+  box-shadow:
+       inset 0 0 0 rgba(0,0,0,0.1),
+             0 0 0 rgb(255,255,255,0.1),
+             0 0 0 rgba(0,0,0,0.1);
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
 }
