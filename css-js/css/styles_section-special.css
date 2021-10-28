@@ -29,7 +29,7 @@
 .special{
   width: 30%;
   float: left;
-  margin-top: 3%;
+  margin-top:30px;
   border: 0px solid transparent;
   background-color: #fff;
 	-webkit-transition: all .5s ease;
