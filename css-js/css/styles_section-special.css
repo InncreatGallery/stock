@@ -1,37 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
 .specials{
-margin-top: 50px;
-width: 95%;
-border: 0px solid #000;
-overflow: hidden;
+  margin-top: 50px;
+  width: 95%;
+  border: 0px solid #000;
+  overflow: hidden;
 }
 
 .title{}
 
 .title1 h2{
-letter-spacing: 1px;
-text-align: left;
-font-weight: bold;
-font-size: 23px;
-font-family: 'Raleway', sans-serif;
+  letter-spacing: 1px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 23px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .title2 h3{
-margin-top: 3px;
-letter-spacing: 1px;
-text-align: left;
-font-weight: normal;
-font-size: 19px;
-font-family: 'Raleway', sans-serif;
+  margin-top: 3px;
+  letter-spacing: 1px;
+  text-align: left;
+  font-weight: normal;
+  font-size: 19px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .special{
   width: 30%;
   float: left;
-  margin: 1.5%;
+  margin: 0%;
   border: 0px solid transparent;
-background-color: #fff;
+  background-color: #fff;
 	-webkit-transition: all .5s ease;
 	-moz-transition: all .5s ease;
 	-o-transition: all .5s ease;
@@ -40,7 +40,7 @@ background-color: #fff;
 
 .specialx{
   width: 100%;
-  padding: .5%;
+  padding: 0%;
   border: 0px solid #000;
 background-color: #fff;
 }
