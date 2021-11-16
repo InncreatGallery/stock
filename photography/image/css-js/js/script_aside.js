@@ -41,12 +41,22 @@ var discover_category;
 var discover_image1;
 
 	discover_image1 = document.getElementById("discover_image1");
-	discover_image1.src="https://scontent-qro1-1.xx.fbcdn.net/v/t1.6435-9/s600x600/244542667_351709976708259_4602166262088434477_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=m6OTxvXIXMwAX8wx-L6&_nc_ht=scontent-qro1-1.xx&oh=56ce073f857d16dea9e421607fd98447&oe=6184388A";
+	discover_image1.src="https://www.mediafire.com/convkey/742d/ooypuvypoxslzkg7g.jpg";
 
 var discover_image2;
 
 	discover_image2 = document.getElementById("discover_image2");
-	discover_image2.src="https://scontent-qro1-1.xx.fbcdn.net/v/t1.6435-9/s600x600/243581294_351709393374984_5810418378897007673_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=rlqRDynEoe4AX_D1FzH&_nc_ht=scontent-qro1-1.xx&oh=4dfcc497f5170b6aacc7893ca217b2fb&oe=618486DD";
+	discover_image2.src="https://www.mediafire.com/convkey/a2ae/4vzquj63nvgc3ny7g.jpg";
+
+var download_discover_image1;
+
+	download_discover_image1 = document.getElementById("download_discover_image1");
+	download_discover_image1.href="https://www.inncreat-gallery.ga";
+
+var download_discover_image2;
+
+	download_discover_image2 = document.getElementById("download_discover_image2");
+	download_discover_image2.href="https://www.inncreat-gallery.ga";
 
 //==========__________DETALLES__________==========
 
