@@ -10,12 +10,17 @@
 	-moz-box-sizing:border-box;
 }
 
+#main-main{
+width: 100% !important;
+margin-top: 100px !important;
+}
+
 #contents {
 	width: 75%;
 	height: 100%;
 	float: left;
 	background: #ffffff;
-	margin-top: 100px;
+	margin-top: 0px;
 	margin-right: 0px;
 }
 
